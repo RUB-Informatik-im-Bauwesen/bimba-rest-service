@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="bimbau-rest-0.0.1-SNAPSHOT">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="XBau-JAXB-Binding-2018.8.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/XBau-JAXB-Binding/XBau-JAXB-Binding">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                        
+        
+        <property name="context-root" value="bimbau-rest"/>
+                        
+        
+        <property name="java-output-path" value="/bimbau-rest/build/classes"/>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>
